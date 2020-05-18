@@ -45,8 +45,8 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
-  programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
-	programmer_hash[:yukihiro_matsumoto][:languages] = ["LISP", "C"]
+  holiday_hash[season][holiday_name] = holiday_name
+	holiday_hash[:season][:languages] = ["LISP", "C"]
 	
   holiday_hash
 
